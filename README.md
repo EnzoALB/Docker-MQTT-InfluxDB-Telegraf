@@ -1,4 +1,4 @@
-# Docker MQTT - InfluxDBv2 pour SuperBeeLive
+# Docker MQTT - InfluxDBv2 - Telegraf
 
 ## Prérequis 
 
@@ -12,7 +12,7 @@
 - `docker ps` liste les dockers
 
 Pour tester MQTT: 
-- `docker exec -it dockermqtt_mqtt_1 /bin/sh` Va ouvrir un terminal dans le container,
+- `docker exec -it mqtt-influxdb-telegraf_mqtt_1 /bin/sh` Va ouvrir un terminal dans le container,
 - `mosquitto_pub -h localhost -p 1883 -t "test" -m "0"` Va publier 0 sur le topic test.
 
 dans un navigateur : http://[hostip]:8086 
