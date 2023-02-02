@@ -28,3 +28,4 @@ Dans `dockermqtt/conf/telegraf.conf.docker` On va changer les logins par ce qu'o
 Pour changer les topics :
 
 Dans `dockermqtt/conf/telegraf.conf.docker` dans topics on ajoute les topics voulu. 
+# Lorax
