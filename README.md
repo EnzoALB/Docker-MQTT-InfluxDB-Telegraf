@@ -1,4 +1,4 @@
-# Docker MQTT - InfluxDBv2 - Telegraf
+# Docker MQTT - InfluxDB2 - Telegraf - Grafana
 
 ## Prérequis 
 
